@@ -1,0 +1,79 @@
+html,body{
+  height:100%;
+  width:100%;
+  background-color: #db821be8;
+  margin:0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+wheel{
+  height:100px;
+  width:100px;
+  background-color: #cea574;
+  border:5px solid #414641;
+  border-radius: 50%;
+  border-right-color: #cea574;
+  position:absolute;
+}
+
+#wheelbox{
+  height:100px;
+  width:100px;
+  background: none;
+  position: absolute;
+  
+}
+.work_space{
+  height:100%;
+  width:100%;
+}
+.s1,.s2,.s3{
+  height:33.3%;
+  width:100%;
+}
+
+.s1{
+  background-color: #e27231;
+ 
+}
+.s2{
+  background-color: #f7f5f2;
+  overflow:hidden;
+  
+}
+.s3{
+  background-color: green;
+}
+
+
+
+.marquee{
+  display:block;
+position:relative;
+width:100%;
+height:100%;
+animation:scroll 10s linear infinite;
+padding:3px;
+display: flex;
+}
+
+
+.img1 {
+  width:auto;
+  height:100%;
+  background-color:#f6f6f6;
+  margin-left:10%;
+  float:left;
+}
+
+/* Make it move */
+@keyframes scroll{
+0% {left:-800px;}
+100% {left:+800px;}
+}
+
+.s11,.s31{
+  font-size: 2.7em;
+ padding-top:5px;
+}
